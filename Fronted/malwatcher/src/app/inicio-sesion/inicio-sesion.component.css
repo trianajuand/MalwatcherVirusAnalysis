@@ -1,0 +1,90 @@
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a2235;
+    color: white;
+    padding: 165px;
+    margin-top: 10px;
+  }
+
+  .login-left {
+    width: 55%;
+    background-color: #2a2d3e;
+    padding: 20px;
+    border-radius: 10px;
+    left: -20px; 
+  }
+  
+  .login-left h2 {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 45px;
+    font-size: 40px;
+  }
+  
+  .form-group {
+    margin-bottom: 25px;
+  }
+  
+  input {
+    width: 70%; 
+    padding: 10px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3a80ba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+  
+  .login-right {
+    width: 45%;
+    background-color: #2a2d3e;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .popup {
+    display: block;
+    position: fixed;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: #2a2d3e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    height: 300px;
+    width: 550px;
+  }
+
+  .popup p {
+    font-size: 30px;
+  }
+
+  .popup h2 {
+    font-size: 33px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  

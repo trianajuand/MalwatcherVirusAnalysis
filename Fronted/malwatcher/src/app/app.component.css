@@ -1,0 +1,8 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0e28;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; /* Permite que el cuerpo sea una columna */
+    min-height: 100vh; /* Asegura que el cuerpo ocupe al menos el 100% de la altura de la ventana */
+}

@@ -1,0 +1,173 @@
+.textDescription {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:100;
+    font-size: 28px;
+  
+  }
+  
+   h1{
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0e28;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+    
+}
+
+.description {
+    text-align: center;
+    margin: 20px auto;
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.divider {
+  width: 124%; 
+  height: 2px; 
+  background-color: #ffffff; 
+  margin: 40px -130px; 
+}
+
+.subirArchivo{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+}
+
+  #enviarArchivo {
+    width: 200px; 
+    height: 50px; 
+    font-size: 25px;
+  }
+
+  .logoPortada{
+    background-image: url('/images/logo.png');
+    height: 150px; /* Altura del logo */
+    width: 150px; /* Ancho del logo */
+    margin-left: 100px;
+    background-size: cover; /* Mantiene la proporción de la imagen */
+    background-position: center; /* Centra la imagen dentro del div */
+    background-position: center;
+  }
+
+  .btn {
+    background-color: #1f264e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .title {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 80px; 
+    font-size: 30px; 
+    margin-top: -40px; 
+    margin-bottom: 20px;
+    color: #ffffff; 
+    flex-wrap: nowrap;
+  }
+
+  .tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabla th, .tabla td {
+    text-align: left;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+    width: 600px;
+    font-size: 20px;
+}
+
+.tabla th {
+    background-color: #f2f2f2;
+}
+
+.card {
+  width: 100%;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #4d7fe0;
+  color: white;
+}
+
+.menubar-start {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+ul {
+  list-style: none; /* Elimina los puntos de lista predeterminados */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Para que los elementos de la lista se alineen horizontalmente */
+  gap: 30px; /* Espacio entre los elementos */
+  justify-content: flex-start; /* Alinea los elementos a la izquierda */
+  align-items: center;
+}
+
+li {
+  padding: 10px 15px; /* Espaciado interno para hacer clic más fácil */
+  cursor: pointer;
+  position: relative; /* Necesario para submenús */
+  transition: background-color 0.3s, color 0.3s; /* Suaviza la transición del hover */
+}
+
+.menu-item:hover {
+  background-color: #1f264e; /* Color de fondo al pasar el ratón */
+  border-radius: 5px; /* Bordes redondeados al pasar el ratón */
+}
+
+.menu-label {
+  font-size: 18px; /* Aumenta un poco el tamaño de fuente */
+  font-weight: 600;
+  color: #ffffff; /* Color de texto del menú */
+  transition: color 0.3s ease; /* Transición suave para el color del texto */
+}
+
+.menu-label:hover {
+  color: #f2f2f2; /* Cambia el color del texto al pasar el ratón */
+}
+
+

@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #13173d;
+    padding: 20px;
+  }
+
+  .nav-buttons {
+    display: flex;
+    gap: 15px;
+  }
+
+  .btn img {
+    height: 20px;
+    vertical-align: middle;
+  }
+  
+  .btn:hover {
+    background-color: #4d7fe0;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #4d7fe0;
+  }
+  
+  .signup-btn {
+    background-color: #3d6fc0;
+  }
+
+  .logo {
+    background-image: url('/prueba/prueba/src/images/Angular.jpg');
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .btn {
+    background-color: #1f264e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }

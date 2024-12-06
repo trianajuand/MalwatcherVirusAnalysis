@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   }
+  
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0e28;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; /* Permite que el cuerpo sea una columna */
+    min-height: 100vh; /* Asegura que el cuerpo ocupe al menos el 100% de la altura de la ventana */
+    
+  }
+  
+  
+  
+   
+    
+  
+    
+   
+    
+  
+    
+  
